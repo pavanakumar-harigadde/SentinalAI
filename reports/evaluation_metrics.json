@@ -1,0 +1,16 @@
+{
+  "naive_precision": 0.966804979253112,
+  "naive_recall": 0.25161987041036715,
+  "naive_f1": 0.39931448157669236,
+  "model_precision": 0.9648876404494382,
+  "model_recall": 0.7419006479481641,
+  "model_f1": 0.8388278388278388,
+  "total_events": 1200,
+  "total_anomalies": 926,
+  "critical_count": 27,
+  "high_count": 125,
+  "medium_count": 560,
+  "low_count": 488,
+  "ml_anomalies": 300,
+  "unauth_count": 631
+}
