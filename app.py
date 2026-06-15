@@ -216,7 +216,7 @@ section[data-testid="stSidebar"] h1, section[data-testid="stSidebar"] h2 { color
 @st.cache_data
 def load_data():
     base = os.path.dirname(os.path.abspath(__file__))
-    df = pd.read_csv(os.path.join(base, 'final_incident_report_v2.csv'))
+    df = pd.read_csv(os.path.join(base, r"reports\final_incident_report_v2.csv"))
     df['timestamp'] = pd.to_datetime(df['timestamp'])
     df['date'] = df['timestamp'].dt.date
     # Parse context bullets back to list
@@ -228,12 +228,12 @@ def load_data():
 @st.cache_data
 def load_users():
     base = os.path.dirname(os.path.abspath(__file__))
-    return pd.read_csv(os.path.join(base, 'user_profiles.csv'))
+    return pd.read_csv(os.path.join(base, r"data\user_profiles.csv"))
 
 @st.cache_data
 def load_metrics():
     base = os.path.dirname(os.path.abspath(__file__))
-    path = os.path.join(base, 'evaluation_metrics.json')
+    path = os.path.join(base, r'reports\evaluation_metrics.json')
     with open(path) as f:
         return json.load(f)
 
