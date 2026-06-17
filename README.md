@@ -158,17 +158,6 @@ The Streamlit dashboard provides:
 * Incident Analysis
 * Explainable Alert Details
 
-### Dashboard Screenshots
-
-Add screenshots here:
-
-![Dashboard](screenshots/dashboard.png)
-
-![Critical Alerts](screenshots/critical_alerts.png)
-
-![Incident Report](screenshots/incident_report.png)
-
----
 
 ## Sample Detected Threats
 
